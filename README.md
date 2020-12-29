@@ -135,15 +135,32 @@
 
 ## VIM settings
 
+* Use github junegunn/vim-plug
+
 ```sh
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
+
+* ``mkdir ~/.vim/undodir -p``
 
 * Go to your home directory ``cd ~`` and get my .vimrc
 
 * ``wget https://raw.githubusercontent.com/AntonellaCoder/dotfiles/main/.vimrc-mac``
 
 * rename it ``mv .vimrc-mac .vimrc``
+
+* open .vimrc (no matter if errors, continue) ``vim .vimrc``
+
+* inside .vimrc press ESC and then write ``:source %`` (if error, continues)
+
+* inside .vimrc press ESC and then write ``:PlugInstall``
+
+* when finished quit from both windows ``:q`` ``:q`` then relaunch iterm
+
+* check the effect ``vim .vimrc``
+
+* Now you are ready to rock.
+
 
 

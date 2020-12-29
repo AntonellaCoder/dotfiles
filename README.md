@@ -91,11 +91,14 @@
 
 * ``while read line; do code --install-extension "$line";done < code.extensions``
 
-#### Visual Studio Code - code.settings
+#### Go to ~/dev open ``code .`` Visual Studio Code - code.settings
 
 * In vscode press Cmd + Shift + P --> Open Settings (JSON) and paste it.
 
 #### Visual Studio Code - code.keybindings
 
 * In vscode press Cmd + Shift + P --> Open Keyboard Shortcuts (JSON) and paste it.
+
+#### Relaunch Visual Studio Code
+
 

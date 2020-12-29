@@ -62,3 +62,7 @@
 * ``mkdir ~/dev``
 
 * ``npm install -g lite-server eslint``
+
+#### Customize visual-studio-code
+
+

@@ -59,6 +59,12 @@
 
 * ``brew install fzf``
 
+* for keybindings follow the instruction in your terminal.
+
+* ``/usr/local/opt/fzf/install`` Yes to all
+
+* 
+
 #### Install nvm (Nodejs Version Manager) & npm (Node Package Manager)
 
 * The command below was found at https://github.com/nvm-sh/nvm

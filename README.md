@@ -133,6 +133,8 @@
 
 * ``vim ~/.ssh/authorized_keys``
 
-# -----
+## VIM settings
+
+* 
 
 

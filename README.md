@@ -93,9 +93,9 @@
 
 #### Visual Studio Code - code.settings
 
-* In vscode press Cmd + Shift + P then searcch for Open Settings (JSON) and paste it.
+* In vscode press Cmd + Shift + P --> Open Settings (JSON) and paste it.
 
 #### Visual Studio Code - code.keybindings
 
-* In vscode press Ctrl + Shift + P --> Open Keyboard Shortcuts (JSON) and paste it.
+* In vscode press Cmd + Shift + P --> Open Keyboard Shortcuts (JSON) and paste it.
 

@@ -109,4 +109,26 @@
 
 #### Relaunch Visual Studio Code
 
+## SSH & Remote Servers
+
+#### Configuring SSH in your Mac (create public key)
+
+* ``ssh-keygen -t rsa -b 4096``
+
+#### Loging in your Remote Machine
+
+* In your mac, copy your public key
+
+* ``cat ~/.ssh/id_rsa.pub | pbcopy``
+
+* Login in your Remote Machine
+
+* ``ssh your_user@your_ip_remote -p your_port``
+
+* Paste your public key in the next file
+
+* ``vim ~/.ssh/authorized_keys``
+
+# -----
+
 

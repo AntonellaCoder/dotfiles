@@ -135,6 +135,10 @@
 
 ## VIM settings
 
-* 
+* Go to your home directory ``cd ~`` and get my .vimrc
+
+* ``wget https://raw.githubusercontent.com/AntonellaCoder/dotfiles/main/.vimrc-mac``
+
+* rename it ``mv .vimrc-mac .vimrc``
 
 

@@ -49,6 +49,12 @@
 
 * ``brew install visual-studio-code``
 
+#### Install Autosuggestions & Syntax Highlighting
+
+* ``brew install zsh-autosuggestions``
+
+* ``brew install zsh-syntax-highlighting``
+
 #### Install nvm (Nodejs Version Manager) & npm (Node Package Manager)
 
 * The command below was found at https://github.com/nvm-sh/nvm

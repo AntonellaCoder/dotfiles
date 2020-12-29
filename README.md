@@ -67,6 +67,10 @@
 
 * While searching, you can select multiple files using TAB
 
+* ``cd **`` to show the options where to cd
+
+* ``ssh **``
+
 #### Install nvm (Nodejs Version Manager) & npm (Node Package Manager)
 
 * The command below was found at https://github.com/nvm-sh/nvm

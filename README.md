@@ -63,7 +63,9 @@
 
 * ``/usr/local/opt/fzf/install`` Yes to all
 
-* For use fzf: type fzf in iterm, or CTR + t, to close, use CTR + c
+* Use: type fzf in iterm, CTR + r (bash_history) CTR + t (search_files), to close, use ESC or CTR + c
+
+* While searching, you can select multiple files using TAB
 
 #### Install nvm (Nodejs Version Manager) & npm (Node Package Manager)
 

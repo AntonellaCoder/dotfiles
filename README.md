@@ -77,6 +77,21 @@
 
 * ``npm install -g lite-server eslint``
 
-#### Customize visual-studio-code
+#### Get the Anonimous Pro (install all .ttf's)
 
+* ``wget https://www.marksimonson.com/assets/content/fonts/AnonymousPro-1_002.zip``
+
+* unzip from your finder and install it
+
+#### Visual Studio Code - code.extensions
+
+* Go to ~/dev and got this with the first line, then run the second line to install.
+
+* ``wget https://raw.githubusercontent.com/AntonellaCoder/dotfiles/main/code.extensions``
+
+* ``while read line; do code --install-extension "$line";done < code.extensions``
+
+#### Visual Studio Code - code.settings
+
+* ``
 

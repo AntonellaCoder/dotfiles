@@ -49,7 +49,7 @@
 
 * ``brew install visual-studio-code``
 
-#### Install nvm & npm (relaunch iterm and check it)
+#### Install nvm (Nodejs Version Manager) & npm (Node Package Manager)
 
 * The command below was found at https://github.com/nvm-sh/nvm
 
@@ -57,7 +57,7 @@
 
 * ``nvm install stable``
 
-* close and relaunch iterm
+#### Close and relaunch iterm & check it versions
 
 * ``nvm --version``
 

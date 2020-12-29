@@ -48,3 +48,9 @@
 * ``brew install firefox``
 
 * ``brew install visual-studio-code``
+
+#### Install nvm
+
+* The command below was found at https://github.com/nvm-sh/nvm
+
+* ``curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash``

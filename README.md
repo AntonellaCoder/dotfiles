@@ -55,6 +55,8 @@
 
 * ``brew install zsh-syntax-highlighting``
 
+* ``brew install autojump``
+
 #### Install nvm (Nodejs Version Manager) & npm (Node Package Manager)
 
 * The command below was found at https://github.com/nvm-sh/nvm

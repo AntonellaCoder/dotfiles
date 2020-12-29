@@ -65,9 +65,11 @@
 
 * ``nvm list``
 
+* ``node --version``
+
 #### With this you can install any version (example)
 
-* ``nvm install 14``
+* no not do this, only example ``nvm install 14``
 
 #### Create workdirectory and Install lite-server
 

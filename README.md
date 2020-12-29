@@ -54,3 +54,11 @@
 * The command below was found at https://github.com/nvm-sh/nvm
 
 * ``curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash``
+
+* ``nvm install stable``
+
+#### Create workdirectory and Install lite-server
+
+* ``mkdir ~/dev``
+
+* ``npm install -g lite-server eslint``

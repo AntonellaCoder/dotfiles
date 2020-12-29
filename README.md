@@ -49,13 +49,15 @@
 
 * ``brew install visual-studio-code``
 
-#### Autosuggestions & Syntax Highlighting & Autojump
+#### Autosuggestions & Syntax Highlighting & Autojump & fzf
 
 * ``brew install zsh-autosuggestions``
 
 * ``brew install zsh-syntax-highlighting``
 
 * ``brew install autojump``
+
+* ``brew install fzf``
 
 #### Install nvm (Nodejs Version Manager) & npm (Node Package Manager)
 

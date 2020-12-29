@@ -1,5 +1,5 @@
 HOST_NAME=pwd
-
+ZSH_DISABLE_COMPFIX="true"
 source ~/.nvm/nvm.sh
 nvm use stable
 
@@ -57,7 +57,7 @@ function mkcd()
 # -------
 # Arch Aliases
 # -------
-alias ls='ls --color=auto'
+#alias ls='ls --color=auto'
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
@@ -72,8 +72,6 @@ alias pacman='pacman --color=auto'
 alias pactree='pactree --color'
 alias vdir='vdir --color=auto'
 alias watch='watch --color'
-alias pbcopy='xclip -selection clipboard'
-alias pbpaste='xclip -selection clipboard -o'
 alias buckle='buckle -f -p /usr/local/share/bucklespring/wav &'
 # -------
 # Aliases
@@ -108,8 +106,8 @@ alias gss='git status -s'
 alias gs='echo ""; echo "*********************************************"; echo -e "   DO NOT FORGET TO PULL BEFORE COMMITTING"; echo "*********************************************"; echo ""; git status'
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/autojump/autojump.zsh
-source /usr/share/fzf/completion.zsh
-source /usr/share/fzf/key-bindings.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+#source /usr/share/fzf/completion.zsh
+#source /usr/share/fzf/key-bindings.zsh

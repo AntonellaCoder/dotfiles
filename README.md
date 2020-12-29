@@ -123,6 +123,10 @@
 
 * Login in your Remote Machine
 
+* Set correct permission to ssh
+
+* If Synology --> ``sudo chmod 700 your_user_main_directory``
+
 * ``ssh your_user@your_ip_remote -p your_port``
 
 * Paste your public key in the next file

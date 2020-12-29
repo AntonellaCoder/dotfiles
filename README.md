@@ -63,6 +63,12 @@
 
 * ``npm --version``
 
+* ``nvm list``
+
+#### With this you can install any version (example)
+
+* ``nvm install 14``
+
 #### Create workdirectory and Install lite-server
 
 * ``mkdir ~/dev``

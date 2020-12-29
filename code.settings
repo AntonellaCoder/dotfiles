@@ -8,10 +8,10 @@
   "window.zoomLevel": 1,
   "workbench.iconTheme": "vscode-icons",
   "editor.fontLigatures": true,
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 12,
   "files.autoSave": "off",
   "editor.fontFamily": "Anonymous Pro",
-  "markdown.preview.fontSize": 16,
+  "markdown.preview.fontSize": 12,
   "editor.tabSize": 2,
   "editor.detectIndentation": true,
   "editor.minimap.enabled": false,
@@ -106,5 +106,5 @@
     "upvote"
   ],
   "editor.lineHeight": 0,
-  "editor.fontSize": 20
+  "editor.fontSize": 14
 }

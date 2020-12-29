@@ -135,6 +135,9 @@
 
 ## VIM settings
 
+* ``curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim``
+
 * Go to your home directory ``cd ~`` and get my .vimrc
 
 * ``wget https://raw.githubusercontent.com/AntonellaCoder/dotfiles/main/.vimrc-mac``

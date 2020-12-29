@@ -63,7 +63,7 @@
 
 * ``/usr/local/opt/fzf/install`` Yes to all
 
-* 
+* For use fzf: type fzf in iterm, or CTR + t, to close, use CTR + c
 
 #### Install nvm (Nodejs Version Manager) & npm (Node Package Manager)
 

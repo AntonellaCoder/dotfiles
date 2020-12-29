@@ -57,7 +57,7 @@
 
 * ``nvm install stable``
 
-* # close and relaunch iterm
+* close and relaunch iterm
 
 * ``nvm --version``
 

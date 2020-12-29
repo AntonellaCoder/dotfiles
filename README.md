@@ -49,7 +49,7 @@
 
 * ``brew install visual-studio-code``
 
-#### Install Autosuggestions & Syntax Highlighting
+#### Autosuggestions & Syntax Highlighting & Autojump
 
 * ``brew install zsh-autosuggestions``
 

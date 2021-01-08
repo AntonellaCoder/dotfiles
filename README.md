@@ -174,6 +174,16 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 * check the effect ``vim .vimrc``
 
+## For Python dev
+
+* To use python3 as default do this:
+
+* Create ``.zprofile``
+
+* Add this to the file ``alias python='python3'``
+
+* Relaunch iTerm
+
 * Now you are ready to rock.
 
 

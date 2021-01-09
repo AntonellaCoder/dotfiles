@@ -204,4 +204,12 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ## Installing django with pipenv
 
-``pipenv install django==3.0.4 --python python3.8``
+* ``pipenv install django``
+
+* To activate the virtual environment ``pipevn shell``
+
+* To see what's inside the virtual environment ``pip freeze``
+
+## If want specific version of python, you must have install that version.
+
+* Opcional --> With specific versions ``pipenv install django==3.0.4 --python python3.8``

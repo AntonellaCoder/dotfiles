@@ -174,7 +174,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 * check the effect ``vim .vimrc``
 
-# Python for Development
+# Python & djando for Development
 
 ## For Python dev
 
@@ -202,4 +202,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 * To remove the option above ``unset PIPENV_VENV_IN_PROJECT``
 
-*
+## Installing django with pipenv
+
+``pipenv install django==3.0.4 --python python3.8``

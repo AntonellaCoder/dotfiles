@@ -174,6 +174,8 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 * check the effect ``vim .vimrc``
 
+# Python for Development
+
 ## For Python dev
 
 * To use python3 as default do this:
@@ -186,5 +188,18 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 * Now you are ready to rock.
 
+## Pipenv (virtual enviroment)
 
+* ``brew install pipenv``
 
+* check with ``pipenv --version``
+
+* also check the default ``pip --version`` or ``pip3 --version``
+
+## Make pipenv create the virtualenv in the same folder
+
+* ``export PIPENV_VENV_IN_PROJECT="enabled"``
+
+* To remove the option above ``unset PIPENV_VENV_IN_PROJECT``
+
+*

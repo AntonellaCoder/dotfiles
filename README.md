@@ -206,7 +206,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 * ``pipenv install django``
 
-* To activate the virtual environment ``pipevn shell``
+* To activate the virtual environment ``pipenv shell``
 
 * To see what's inside the virtual environment ``pip freeze``
 

@@ -210,6 +210,8 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 * To see what's inside the virtual environment ``pip freeze``
 
+* If chargion previous project, install dependencies ``pipenv install --dev``
+
 ## If want specific version of python, you must have install that version.
 
 * Opcional --> With specific versions ``pipenv install django==3.0.4 --python python3.8``

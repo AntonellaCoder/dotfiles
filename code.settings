@@ -4,6 +4,7 @@
   "emmet.showAbbreviationSuggestions": false,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
   "workbench.colorTheme": "Just Black",
   "window.zoomLevel": 1,
   "workbench.iconTheme": "vscode-icons",

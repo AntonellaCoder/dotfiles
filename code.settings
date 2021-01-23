@@ -4,29 +4,25 @@
   "emmet.showAbbreviationSuggestions": false,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": false,
-  "editor.formatOnSave": false,
   "workbench.colorTheme": "Just Black",
   "window.zoomLevel": 1,
   "workbench.iconTheme": "vscode-icons",
   "editor.fontLigatures": true,
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 16,
+  "editor.fontSize": 16,
   "files.autoSave": "off",
   "editor.fontFamily": "Anonymous Pro",
-  "markdown.preview.fontSize": 12,
+  "markdown.preview.fontSize": 16,
   "editor.tabSize": 2,
   "editor.detectIndentation": true,
   "editor.minimap.enabled": false,
   "eslint.enable": true,
-  // "files.exclude": { "**/.*": true },
+  "files.exclude": { "**/.*": false },
   "eslint.validate": [
     {
       "language": "vue",
       "autoFix": true
     },
-    {
-        "language": "typescript",
-        "autoFix": true
-      },
     {
       "language": "html",
       "autoFix": true
@@ -75,37 +71,50 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": [
-          "comment",
-          "comment.block"
-        ],
+        "scope": ["keyword.operator.logical"],
         "settings": {
-          "fontStyle": "italic",
-          "foreground": "#ff1493"
+          "fontStyle": ""
         }
       },
       {
-        "scope": [
-          "keyword.operator.logical",
-          "keyword.operator.arithmetic",
-          "keyword.operator.assignment",
-          "keyword.operator.bitwise"
-        ],
+        "scope": ["keyword.operator.logical"],
         "settings": {
           "fontStyle": ""
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      },
+      {
+        "scope": ["keyword.operator.logical"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["keyword.operator.logical"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
         }
       }
     ]
   },
-  "todo-tree.tree.showScanModeButton": false,
-  "cSpell.userWords": [
-    "deno",
-    "feathersjs",
-    "middlewares",
-    "socketio",
-    "upsert",
-    "upvote"
-  ],
-  "editor.lineHeight": 0,
-  "editor.fontSize": 14
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "emmet.includeLanguages": { "django-html": "html" }
 }

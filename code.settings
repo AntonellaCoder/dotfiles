@@ -1,7 +1,7 @@
 {
   "explorer.openEditors.visible": 0,
-  "editor.snippetSuggestions": "top",
-  "emmet.showAbbreviationSuggestions": false,
+  "editor.snippetSuggestions": "inline",
+  "emmet.showAbbreviationSuggestions": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": false,
   "workbench.colorTheme": "Just Black",

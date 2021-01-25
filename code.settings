@@ -16,7 +16,6 @@
   "editor.tabSize": 2,
   "editor.detectIndentation": true,
   "editor.minimap.enabled": false,
-  "eslint.enable": true,
   "files.exclude": { "**/.*": false },
   "eslint.validate": [
     {
@@ -116,5 +115,9 @@
     "**/templates/**/*": "django-txt",
     "**/requirements{/**,*}.{txt,in}": "pip-requirements"
   },
-  "emmet.includeLanguages": { "django-html": "html" }
+  "emmet.includeLanguages": { "django-html": "html" },
+  "explorer.confirmDelete": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.tabCompletion": "off",
+  "python.languageServer": "Pylance"
 }

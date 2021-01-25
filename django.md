@@ -14,11 +14,14 @@
 
 * Add the next configuration to your new_project/.vscode/settings.json (do not delete the preview first value)
 
-'''
+```{
+  "python.pythonPath": " *** DO NOT COPY THIS LINE *** ALL THE REST ***",
   "editor.formatOnSave": true,
   "python.formatting.provider": "autopep8",
   "python.linting.enabled": true,
   "python.linting.lintOnSave": true,
   "python.linting.pylintEnabled": true,
-  "python.linting.pylintArgs": ["--load-plugin=pylint_django"]
-'''
+  "python.linting.pylintArgs": ["--load-plugin=pylint_django"],
+  "editor.tabSize": 4
+  }
+```

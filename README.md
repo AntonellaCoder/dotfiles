@@ -59,6 +59,12 @@
 
 * ``brew install fzf``
 
+* Ranger: If you hit Shift + S, it opens a new shell on the current directory.
+
+* If you hit Ctrl + D on the shell, it goes back to ranger. MODIFY your ranger alias in .bashrc or equivalent.
+
+* ``brew install ranger``
+
 * for keybindings follow the instruction in your terminal.
 
 * ``/usr/local/opt/fzf/install`` Yes to all

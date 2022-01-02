@@ -180,6 +180,10 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 * check the effect ``vim .vimrc``
 
+* If errors go to ``vim .vimrc`` and do ``PlugUpdate`` and/or ``PlugUpgrade``
+
+* If error related with (no python), then install vim from homebrew insted of use vim mac version.
+
 # Python & djando for Development
 
 ## For Python dev

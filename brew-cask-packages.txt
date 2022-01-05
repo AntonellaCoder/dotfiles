@@ -1,0 +1,12 @@
+alfred
+anydesk
+discord
+firefox
+inskscape
+iterm2
+postman
+rar
+spectacle
+visual-studio-code
+vlc
+zoom

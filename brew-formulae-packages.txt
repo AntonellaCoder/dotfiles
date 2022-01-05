@@ -1,4 +1,5 @@
 wget
+ripgrep
 autojump
 berkeley-db
 fzf

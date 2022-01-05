@@ -2,7 +2,7 @@ alfred
 anydesk
 discord
 firefox
-inskscape
+inkscape
 iterm2
 postman
 rar

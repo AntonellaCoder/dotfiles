@@ -19,3 +19,4 @@ vcprompt
 vim
 zsh-autosuggestions
 zsh-syntax-highlighting
+universal-ctags

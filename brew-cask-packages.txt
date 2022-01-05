@@ -10,3 +10,4 @@ spectacle
 visual-studio-code
 vlc
 zoom
+keycastr

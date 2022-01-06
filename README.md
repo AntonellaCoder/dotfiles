@@ -225,3 +225,10 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ## If want specific version of python, you must have install that version.
 
 * Opcional --> With specific versions ``pipenv install django==3.0.4 --python python3.8``
+
+## To autocomplete python in neovim
+
+* ``python -m pip install setuptools``
+* ``npm i -g pyright``
+* Inside neovim isntall vim-plugs listed.
+* ``:CocInstall coc-pyright``

@@ -115,7 +115,7 @@ require'lspconfig'.pyright.setup{}
 EOF
 
 " neoclide/coc.nvim (for web development)
-let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver']
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-pyright', 'coc-eslint', 'coc-css']
 
 " nnoremap <leader>rp :vertical resize 100<CR>
 

@@ -233,5 +233,5 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 * Inside neovim isntall vim-plugs listed.
 * ``:CocInstall coc-pyright``
 ## :CocInstall (do it inside neovim nvim)
-* ``:CocInstall coc-pyright coc-tsserver coc-eslint coc-json coc-prettier coc-html coc-css``
-* To see what is installed do ``:CocList``
+* ``:CocInstall coc-emmet coc-css coc-html coc-json coc-prettier coc-tsserver coc-pyright coc-eslint coc-marketplace``
+* To see what is installed do ``:CocList`` tambien usar ``:heathcheck``

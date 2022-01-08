@@ -128,7 +128,7 @@ require'lspconfig'.pyright.setup{}
 EOF
 
 " neoclide/coc.nvim (for web development)
-let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver','coc-pyright', 'coc-eslint', 'coc-marketplace']
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver','coc-pyright', 'coc-eslint', 'coc-marketplace', 'coc-pairs']
 
 " tab and shift tab to select and complet the contents.
 "inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"

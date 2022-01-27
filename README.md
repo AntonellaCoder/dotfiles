@@ -235,3 +235,4 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ## :CocInstall (do it inside neovim nvim)
 * ``:CocInstall coc-emmet coc-css coc-html coc-json coc-prettier coc-tsserver coc-pyright coc-eslint coc-marketplace``
 * To see what is installed do ``:CocList`` tambien usar ``:heathcheck``
+* To install nerd fonts go to: https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts
